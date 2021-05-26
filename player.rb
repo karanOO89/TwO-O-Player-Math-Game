@@ -3,7 +3,7 @@ class Player
   def initialize(name)
     @name = name
     @current_lives = 3
-  end  
+  end
   def decrement_lives
     @current_lives -= 1      
   end
